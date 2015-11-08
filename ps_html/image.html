@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Image</title>
+	<link rel="stylesheet" href="main.css" type="text/css" media="screen">
+	<style type="text/css">
+	a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+    </style>
+<meta charset="utf-8">
+</head>
+<body>
+
+<div id = "main">
+<header>
+		<h1>Visual Desigin for Intercative Media</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="sitmap.html">Sitemap</a></li>
+            <li><a href="colour.html">Colour</a></li>
+            <li class="selected"><a href="image.html">Image</a></li>
+            <li><a href="type.html">Type</a></li>
+            <li><a href="SitIndex.html">Sit Index</a></li>
+			<li><a href="reference.html">Reference</a></li>
+		</ul>
+	</nav>
+    
+<div id="content">
+	<div id = "txtbox">
+    <h3>
+      <div id="what_image"><strong>What's the Image?</strong></div></h3>
+<p>In typesetting by hand compositing, a sort or type is a piece of type representing a particular letter or symbol, cast from a matrix mould and assembled with other sorts bearing additional letters into lines of type to make up a form from which a page is printed.<br>
+</p>
+<hr width="70%">
+<h3>
+<div id="Vector"><span id="Vector"><strong>Vector</strong></span><strong> And Raster Images</strong></div></h3>
+<p>There are two basic types of computer images. </p>
+<ul>
+  <li>- Vector images</li>
+  <li>- Raster images</li>
+</ul>
+<p> Vector images creating using such as adobe allustrator consist of individual objects and each object has it's own attributes (shape, color, placement, size)<br>
+  Raster images creating using such as adobe allustrator consist of individual points (pixels) ,each pixel has it's own attributes such as color, placement. Vector images are converted to raster images before they are displayed on a computer screen or printed</p>
+  <img id = "width" src="image/raster.png" alt="" >
+<hr width="70%">
+<h3>
+  <div id="Anti_Aliasing"><strong>Anti-<span id="Aliasing">Aliasing</span></strong></div></h3>
+<p>Anti-aliasing is the process of coloring each pixel with a difference tone of it's color, proportion to it's area of intersection with the pixel area that is created when you add the layer mask. </p>
+<p><img src="image/image_aliasing.png" alt="">
+<img src="image/image_cal2.png" alt=""></p>
+<hr width="70%">
+<h3>
+  <div id="Scale"><strong>Grey<span id="Scale">scale</span> Images</strong></div></h3>
+<p>Greyscale Images may contain over 200 diferent tones of grey.</p>
+<ul>
+  <li>- With less than 200 tones of grey, images will not look continuous</li>
+  <li>- Bandnig or shade-stepping occurs when we can see different bands of lighter and darker grey</li>
+</ul>
+<img src="image/image_cal.png" alt="">
+<hr width="70%">
+<h3>
+  <div id="Color_Images"><span id="Color"><strong>Color</strong></span><strong> Images</strong></div>
+</h3>
+<p>Color Images refers to the number of bits per pixel such as high color (16 bits) and true color (24 bits). the higher color depth the larger images size. The color reduction is the process of reducing the color depth to reduce the image size from 16 to 8 bit (256 colors). Dithering is the process of simulating colors that are not available. Dithering can improve the quality of color reduced images.</p>
+<ul>
+  <li>- few available colors are put next to each other</li>
+  <li>- our eyes perceive the missing color</li>
+</ul>
+<p>Limited but selective color can be used to further improve the quality of low depth images. System color palettes such as window, mobile device and Macromedia. Window color palettes (browser safe color) and custom color palettes depend on how used in the images</p>
+<p><img src="image/image_base.png" alt=""></p>
+<hr width="70%">
+<h3>
+  <div id="Layers"><span id="Raster"><strong>Raster</strong></span><strong> Images Channels And Layers</strong></div>
+</h3>
+<p>Raster Images are generally a collection of channels are like simnple images. One channel for each of the primary colors. There are also be addittion channels</p>
+<ul>
+  <li>- alpha channel for transparently</li>
+  <li>- Z-depth channel for determining the relative distance of each pixel from a fixed location</li>
+  <li>- user defined channels such as selection paths</li>
+</ul>
+<img src="image/image_channel.png">
+<hr width="70%">
+<h3>
+  <div id="Formats"><strong>Image File <span id="Formats">Formats</span></strong></div></h3>
+<p>There are two main groups of file formats</p>
+<ul>
+  <li>- Vector image file format</li>
+  <li>- Raster image file format</li>
+</ul>
+<p>Vector image file format store the image as a set of individual objects (object-based). Smaller file size. Raster image file format store the image as a set of individual pixels (bitmal). larger file size. Raster image file formats often rely on compression techniques to reduce their size. Lossless compression techniques compress images without discarding any image data. Lossy compression techniques discard some image data to reduce file size</p>
+<p><img src="image/image_colour.png" alt=""></p>
+<hr width="70%">
+<h3>
+  <div id="Web"><strong>Raster Image File Format For The <span id="Web">Web</span></strong></div>
+  <br>
+</h3>
+<p>Graphic Intercharge Format (GIF)</p>
+<ul>
+    <li>- Limited color palette (256 color, 8 bit)</li>
+    <li>- allows transparents for specified color</li>
+    <li>- allows animation by iterating though images</li>
+</ul>
+<p>Portable Network Graphic (PNG)</p>
+<ul>
+    <li>- Can be either 8 bits (limited colors) or 24 bits</li>
+    <li>- 8 bits version allows transparency similar to GIF </li>
+    <li>- 24 bit version allow transparency using alpha channel</li>
+</ul>
+<p>Joint Photographic Experts Group (JPEG)</p>
+<ul>
+    <li>- Provides different levels of compression</li>
+    <li>- allows small size for true color images</li>
+    <li>- no limit on the number of color</li>
+</ul>
+<hr width="70%">
+<h3>
+  <div id="Formats"><strong>Image File <span id="Formats">Formats</span></strong></div></h3>
+<p>There are two main groups of file formats</p>
+<ul>
+  <li>- Vector image file format</li>
+  <li>- Raster image file format</li>
+</ul>
+<p>Vector image file format store the image as a set of individual objects (object-based). Smaller file size. Raster image file format store the image as a set of individual pixels (bitmal). larger file size. Raster image file formats often rely on compression techniques to reduce their size. Lossless compression techniques compress images without discarding any image data. Lossy compression techniques discard some image data to reduce file size</p>
+<p><img src="image/image_colour.png" alt=""></p>
+<hr width="70%">
+<h3>
+  <div id="web_pages"><strong><br>Use of images in web pages</strong></div>
+  <br>
+</h3>
+<p>HTML used to have limited support for inclusion of images</p>
+<p>CSS provided much better support for use of images</p>
+<ul>
+    <li>- images overlays</li>
+    <li>- images borders</li>
+    <li>- rotation, scale, and other transformations</li>
+    <li>- animation</li>
+</ul>
+<hr width="70%">
+<div id = "back_top"><p align="center"><a href="#top">Return to Top of Page</a></p></div>
+</div>
+
+  </div>
+</div>
+<footer>
+<div id ="last">
+<p align="center">Copyright at 2014,  Made by ZiboWang.</p>
+</div>		
+</footer>
+</body></html>
